@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>net8.0-windows;net6.0-windows;net48</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net8.0;net6.0;net48</TargetFrameworks>
     <AutoGenerateBindingRedirects Condition=" $(TargetFramework.StartsWith('net4')) ">true</AutoGenerateBindingRedirects>
-    <UseWPF>true</UseWPF>
     <LangVersion>latestmajor</LangVersion>
     <Nullable>enable</Nullable>
     <Version>1.6.2</Version>
