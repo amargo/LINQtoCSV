@@ -4,7 +4,7 @@
     <AutoGenerateBindingRedirects Condition=" $(TargetFramework.StartsWith('net4')) ">true</AutoGenerateBindingRedirects>
     <LangVersion>latestmajor</LangVersion>
     <Nullable>enable</Nullable>
-    <Version>1.6.2</Version>
+    <Version>1.6.3</Version>
     <Authors>gszobi</Authors>
     <PackageId>LINQtoCSVExtended</PackageId>
     <Description>Popular, easy to use library to read and write CSV and tab delimited files. Supports data fields containing commas and line breaks. Supports different character encodings, separator characters and date and number formats. Robust error handling lets you quickly fix problems in large input files. This is net 6.0 version</Description>
